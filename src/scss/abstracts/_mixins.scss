@@ -8,7 +8,7 @@
   transition: $property 0.25s ease;
 }
 
-/* ===== media mixins ===== */
+// ===== media mixins =====
 
 @mixin desktop {
   @media (width <= 1024px) {
