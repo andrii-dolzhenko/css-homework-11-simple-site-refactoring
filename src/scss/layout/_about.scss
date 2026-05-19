@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as *;
+
+.about {
+  padding: 112px 0 100px;
+}
+
+.section-intro {
+  max-width: 540px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-intro__title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: $color-black;
+}
+
+.section-intro__text {
+  line-height: 22.4px;
+}

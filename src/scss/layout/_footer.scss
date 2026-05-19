@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as *;
+
+.footer {
+  padding: 50px 0;
+  min-height: 150px;
+  background: $color-primary;
+  color: $color-white;
+}
+
+.footer__name {
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.footer__copyright {
+  font-size: 13px;
+}

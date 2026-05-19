@@ -1,0 +1,33 @@
+{
+  "name": "css-homework-11-simple-site-refactoring",
+  "version": "1.0.0",
+  "description": "A responsive version of the **Simple Site** landing page created to practice media queries, flexible layout behavior, responsive spacing, and adaptation for different screen sizes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrii-dolzhenko/homework-10-responsive-simple-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/andrii-dolzhenko/homework-10-responsive-simple-site/issues"
+  },
+  "homepage": "https://github.com/andrii-dolzhenko/homework-10-responsive-simple-site#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.99.0",
+    "stylelint": "^17.11.1",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-scss": "^7.1.1"
+  }
+}

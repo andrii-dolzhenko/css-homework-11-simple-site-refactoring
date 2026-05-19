@@ -1,0 +1,36 @@
+@use "../abstracts/variables" as *;
+
+.process {
+  padding: 100px 0;
+  background: $color-bg;
+}
+
+.process__intro {
+  margin-bottom: 57px;
+}
+
+.process .section-intro__title {
+  margin-bottom: 50px;
+}
+
+.process__media {
+  position: relative;
+}
+
+.process__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  object-fit: cover;
+}
+
+.process__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+}

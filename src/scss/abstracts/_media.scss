@@ -1,0 +1,111 @@
+@use "./mixins" as *;
+
+/* ======================
+1024
+====================== */
+
+@include desktop {
+  .hero {
+    padding: 120px 0 100px;
+
+    &__content {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  .stats__list {
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 50px 40px;
+  }
+}
+
+/* ======================
+768
+====================== */
+
+@include tablet {
+  .site-header {
+    padding-top: 40px;
+  }
+
+  .site-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 35px;
+  }
+
+  .hero {
+    padding: 80px 0;
+    text-align: center;
+
+    &__content {
+      margin: 0 auto;
+    }
+
+    &__button {
+      display: flex;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+
+  .stats__list {
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 40px 35px;
+  }
+
+  .process__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+/* ======================
+480
+====================== */
+
+@include mobile {
+  .site-nav__list {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero {
+    padding: 40px 0 60px;
+
+    &__title {
+      font-size: 36px;
+    }
+
+    &__button {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  .stats__list {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 35px 25px;
+  }
+}
+
+/* ======================
+320
+====================== */
+
+@include small-mobile {
+  .hero {
+    padding: 20px 0 50px;
+  }
+}

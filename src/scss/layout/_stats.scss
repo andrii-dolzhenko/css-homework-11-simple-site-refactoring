@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+
+.stats {
+  padding: 100px 0;
+  background: $color-primary;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    gap: 45px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__number {
+    display: block;
+    color: $color-white;
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  &__label {
+    color: $color-white;
+  }
+}
